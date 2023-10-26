@@ -1,38 +1,38 @@
 export const stack = [
   {
     name: 'JavaScript',
-    src: '/techs/javascript.svg'
+    src: '/techs/javascript.svg',
   },
   {
     name: 'TypeScript',
-    src: '/techs/typescript.svg'
+    src: '/techs/typescript.svg',
   },
   {
     name: 'Node.js',
-    src: '/techs/node.svg'
+    src: '/techs/node.svg',
   },
   {
     name: 'React.js',
-    src: '/techs/react.svg'
+    src: '/techs/react.svg',
   },
   {
     name: 'Next.js',
-    src: '/techs/next.svg'
+    src: '/techs/next.svg',
   },
   {
     name: 'Nest.js',
-    src: '/techs/nest.svg'
+    src: '/techs/nest.svg',
   },
   {
     name: 'Jest',
-    src: '/techs/jest.svg'
+    src: '/techs/jest.svg',
   },
   {
     name: 'Styled-components',
-    src: '/techs/styled-components.svg'
+    src: '/techs/styled-components.svg',
   },
   {
     name: 'Tailwind CSS',
-    src: '/techs/tailwind.svg'
+    src: '/techs/tailwind.svg',
   },
-]
+];
