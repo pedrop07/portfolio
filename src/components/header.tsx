@@ -1,17 +1,9 @@
-'use client';
-
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { contacts } from '@/constants/contacts';
 
 export function Header() {
   return (
-    <motion.header
-      initial={{ opacity: 0, y: 20, x: 5 }}
-      animate={{ opacity: 1, y: 0, x: 0 }}
-      transition={{ duration: 0.4 }}
-      className="md:sticky md:top-0 h-full w-full pt-12 lg:pt-24"
-    >
+    <header className="md:sticky md:top-0 h-full w-full pt-12 lg:pt-24">
       <h1 className="text-4xl md:text-5xl font-extrabold">Pedro Parente</h1>
 
       <h2>Desenvolvedor Web</h2>
@@ -40,6 +32,6 @@ export function Header() {
           );
         })}
       </ul>
-    </motion.header>
+    </header>
   );
 }

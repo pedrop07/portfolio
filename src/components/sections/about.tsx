@@ -10,7 +10,7 @@ export function About() {
   const arrowRightPlayerRef = useRef<Player>(null);
 
   return (
-    <section className="mb-16">
+    <section>
       <h2 className="text-3xl font-bold mb-3">Sobre mim</h2>
 
       <div className="space-y-3 mb-6">
