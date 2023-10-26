@@ -4,29 +4,35 @@ export const projects: Project[] = [
   {
     title: 'ChatHub',
     description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+      'O ChatHub é uma rede social de chats que permite aos usuários criar, participar e interagir em tempo real com uma variedade de chats temáticos.',
     techs: ['Next.js', 'React.js', 'TypeScript', 'Zustand', 'Tailwind CSS'],
     repository: 'https://github.com/pedrop07/chathub-client',
   },
   {
-    title: 'ChatHub - Backend',
+    title: 'ChatHub - API',
     description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+      'Esta é a API utilizada pelo ChatHub. Ela cuida da autenticação dos usuários, permite a criação e exclusão de chats e permite a comunicação em tempo real fluindo por meio do WebSocket.',
     techs: ['Nest.js', 'TypeScript', 'TypeORM', 'MySQL', 'Passport.js'],
     repository: 'https://github.com/pedrop07/chathub-server',
   },
   {
     title: 'Desvende',
     description:
-      'O Desvende é uma versão do popular jogo de navegador "Wordle"',
-    techs: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Prisma'],
+      'O Desvende é uma versão do popular jogo de navegador "Wordle", agora disponível em português brasileiro.',
+    techs: [
+      'Next.js',
+      'React.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Prisma',
+      'SQLite',
+    ],
     repository: 'https://github.com/pedrop07/desvende',
     href: 'https://desvende.vercel.app',
   },
   {
     title: 'Game Crud',
-    description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+    description: 'Uma aplicação que simula uma locadora de jogos.',
     techs: [
       'React.js',
       'TypeScript',
@@ -36,27 +42,27 @@ export const projects: Project[] = [
       'Testing Library',
       'Docker',
       'Express',
+      'MySQL',
     ],
     repository: 'https://github.com/pedrop07/CRUD-Games',
   },
   {
     title: 'News Delivery',
+    description: 'Um sistema de gerenciamento de notícias.',
+    techs: ['React.js', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    repository: 'https://github.com/pedrop07/NewsDelivery/tree/main/client',
+  },
+  {
+    title: 'News Delivery - API',
     description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
-    techs: [
-      'React.js',
-      'TypeScript',
-      'Vite',
-      'Tailwind CSS',
-      'Flowbite',
-      'React-query',
-    ],
-    repository: 'https://github.com/pedrop07/NewsDelivery',
+      'Esta é a API utilizada pelo News Delivery, onde é possível criar, editar e excluir notícias.',
+    techs: ['Laravel', 'Docker', 'PostgreSQL'],
+    repository: 'https://github.com/pedrop07/NewsDelivery/tree/main/server',
   },
   {
     title: 'Coffee Delivery',
     description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+      'Desafio da trilha de React do curso Ignite da Rocketseat. Uma aplicação web de delivery de cafés.',
     techs: ['React.js', 'TypeScript', 'Vite', 'Redux', 'Tailwind CSS'],
     repository: 'https://github.com/pedrop07/React-JS--coffee-delivery',
     href: 'https://coffee-delivery-fawn.vercel.app',
@@ -64,15 +70,14 @@ export const projects: Project[] = [
   {
     title: 'Quick Draw',
     description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+      'Um site interativo que permite a criação de arte pixelizada com facilidade..',
     techs: ['JavaScript', 'HTML', 'CSS'],
     repository: 'https://github.com/pedrop07/QuickDraw',
     href: 'https://pedrop07.github.io/QuickDraw/',
   },
   {
     title: 'To do list',
-    description:
-      'Consectetur id excepteur exercitation aliqua consequat ut incididunt tempor ex magna ipsum amet velit.',
+    description: 'Um site para criar e gerenciar tarefas.',
     techs: ['JavaScript', 'HTML', 'CSS'],
     repository: 'https://github.com/pedrop07/todoList',
     href: 'https://pedrop07.github.io/todoList/',
